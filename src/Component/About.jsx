@@ -20,12 +20,12 @@ const About = () => {
      to thrive in the ever-evolving digital landscape.
       </p>
 
-      <h3 className="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>
+      {/* <h3 className="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>
       <p className="text-lg text-gray-600 mb-6">
         Our mission is simple yet profound: to create exceptional digital experiences that drive growth and 
       success for our clients. We believe that the right blend of design, technology,
       and strategy can transform your online presence and set you apart in today's competitive market.
-      </p>
+      </p> */}
 
       <h3 className="text-2xl font-semibold text-gray-800 mb-4">Who We Are</h3>
       <p className="text-lg text-gray-600 mb-6">

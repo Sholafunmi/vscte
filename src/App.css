@@ -7,6 +7,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #183c71;
+  color: #020b1a;
 }
 
 
@@ -34,11 +35,19 @@
   background-image: url(./images/TechTeam2.jpg);
 }
 
-@media only screen and (max-width:600px){
-  .service1{
+@media only screen and (max-width:834px){
+  /* .service1{
   flex-direction: column;
   height: fit-content;
 
+} */
+.footer{
+  flex-direction: column;
+  text-align: center;
+  gap: 1em;
+}
+.footLogo{
+  flex-direction: column;
 }
 }
 

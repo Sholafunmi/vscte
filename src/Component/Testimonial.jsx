@@ -68,8 +68,8 @@ const Testimonial = () => {
         );
       }
       return (
-        <div className='w-full h-fit flex text-center align-center justify-center bg-slate-400 '>
-          <div className='flex flex-col h-[60vh] max-w-[80%] justify-center align-center text-center '>
+        <div className='w-full h-fit flex text-center align-center justify-center bg-slate-400 mt-10 '>
+          <div className='flex flex-col h-fit max-w-[80%] justify-center align-center text-center py-10 lg:py-20'>
         <h2 className='text-black text-2xl font-bold mb-4'>Clients Testimonials</h2>
         <Slider {...settings}>
         {/* #183c71 */}

@@ -2,11 +2,12 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name='talkToUs' className='w-full h-screen bg-[#031625] flex flex-col justify-center items-center  '>
+    // <section className='w-full h-screen bg-[#031625] flex justify-center items-center '>
+        <div name='talkToUs' className='w-full h-fit flex flex-col bg-[#031625] justify-center items-center self-center py-20 p-5  '>
     <p className='text-gray-100 text-2xl text-center pb-4'>Talk To Us <br /> Lets Here About Your Project </p>
    
 
-    <form action="" className=' w--full h-fit p-2 mx-3 gap-2 border rounded-md  flex flex-col justify-center text-center'>
+    <form action="" className='flex w-full sm:w-[400px] h-fit p-2 mx-3 gap-2 border rounded-md   flex-col justify-center self-center'>
         <div>
         
             {/* <label htmlFor="name"> Your Name:</label> */}
@@ -30,7 +31,7 @@ const Contact = () => {
         </div>
 
         <div className=' bg-white text-black p-2 flex gap-2 '>
-            <label htmlFor="project"> Your Project Brief</label> 
+            <label htmlFor="project">Brief</label> 
             <input type="file" name="project" id="project" className=' ' />
         </div>
 
@@ -44,6 +45,8 @@ const Contact = () => {
     </form>
 
     </div>
+    // </section>
+    
   )
 }
 
