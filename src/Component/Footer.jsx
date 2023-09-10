@@ -9,10 +9,10 @@ const Footer = () => {
   return (
     <section name='footer' className='w-full h-fit bg-[#202020] flex  justify-center items-center '>
         <div  className=' w-[80%] text-gray-200 flex  justify-between  py-8 footer'>
-            <div className=' flex  gap-2 items-center footLogo'>
+            <div className=' flex flex-col gap-2 items-center footLogo'>
                  <a href=""> <img className='w-[180px]' src={logo} alt="logoImage" /> </a>
-                <p>VSCTE 2023 All Rights Reserved</p>
-                <p></p>
+                <p>VSCTE 2023 All Rights Reservedhh</p>
+                
             </div>
 
             <div className='flex flex-col '>

@@ -36,19 +36,15 @@
 }
 
 @media only screen and (max-width:834px){
-  /* .service1{
-  flex-direction: column;
-  height: fit-content;
-
-} */
+ 
 .footer{
   flex-direction: column;
   text-align: center;
   gap: 1em;
 }
-.footLogo{
+/* .footLogo{
   flex-direction: column;
-}
+} */
 }
 
 
